@@ -10,7 +10,8 @@ LinkerTER OS is a solo project developed by a **13-year-old developer** with a p
 LinkerTER OS aims to bring a powerful, minimalist CLI experience to **all devices**. 
 Whether it's an old tablet or a modern laptop, LinkerTER provides the core tools you need.
 
-- [x] v3.0 (First Release): Foundation & Core Menu
+- [x] v2.0  Beta Versions
+- [ ] v3.0 (First Release): Foundation & Core Menu
 - [ ] v3.1: Expanded Driver Support
 - [ ] v4.0: Universal Binary Installer
 
