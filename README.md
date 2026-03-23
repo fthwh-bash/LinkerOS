@@ -1,21 +1,20 @@
 # LinkerOS
-LinkerOS is a lightweight, minimal Linux Distro For many devices.
-That is still on development.
 
-### 👤 About the Developer
-LinkerTER OS is a solo project developed by a **13-year-old developer** with a passion for CLI, performance, and Linux kernels. 
+LinkerOS is an open-source operating system that aims to provide a robust, user-friendly environment for both beginners and hardcore users alike. Our mission is to bridge the gap between simplicity and advanced functionalities, allowing everyone to utilize the computing power and flexibility that a modern operating system can offer.
 
-## 🌐 Project Vision
-LinkerOS aims to bring a powerful, minimalist experience to **all devices**. 
-Whether it's an old tablet or a modern laptop.
+## Why LinkerOS Exists
 
-- [x] Beta Versions of LinkerTER (AMD64, CLI)
-- [ ] Full Release of LinkerTER (AMD64, CLI)
-- [ ] Beta Release of LinkerOS Min (AMD64, GUI = XFCE)
-- [ ] Full Release of LinkerOS Min (AMD64, GUI = XFCE)
-- [ ] Beta Release of LinkerOS Prime (AMD64, GUI = GNOME)
-- [ ] Full Release of LinkerOS Prime (AMD64, GUI = GNOME)
-- [ ] Beta Release of LinkerOS Ghost (AMD64, GUI = XFCE, RAM-Only Storage)
-- [ ] Full Release of LinkerOS Ghost (AMD64, GUI = XFCE, RAM-Only Storage)
+Many operating systems can feel overwhelming, catering either to novice users or experienced developers. LinkerOS seeks to combine these two worlds, offering a platform that is easy for newcomers to navigate while still providing the necessary tools and capabilities for advanced users to take full control of their system. Our goal is to create a community where knowledge is shared, and everyone can contribute to the growth and improvement of the software.
 
-⚠️ Note on Security: Since this is a brand new release, Windows/SmartScreen might flag the .iso file as "unrecognized" or "unsafe." This is a common false positive for new independent projects. You can safely bypass this by clicking "Run anyway" or "Keep anyway."
+## Roadmap
+
+- [ ] Improve user interface for a more intuitive experience
+- [ ] Enhance compatibility with existing software
+- [ ] Engage with the community for feedback and suggestions
+- [ ] Develop ARM64 support for broader hardware compatibility
+
+This roadmap is designed to prioritize features that benefit all users, ensuring that LinkerOS evolves in a direction that meets community needs. Stay tuned for updates and join us in this exciting journey!  
+
+## Get Involved
+
+We encourage contributions from everyone. Whether you're a developer looking to contribute code, or a user wanting to provide feedback or suggestions, there’s a place for you in the LinkerOS community!
