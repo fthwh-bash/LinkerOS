@@ -26,15 +26,13 @@ To create an OS that is:
 
 ## 🚀 What's New in v3.0
 
-LinkerOS v3.0 is a major milestone featuring:
+**LinkerTER OS v3.0** (CLI Edition) is coming soon with:
 
-- ✅ **Redesigned User Interface** - More intuitive and modern
-- ✅ **Enhanced Software Compatibility** - Better support for existing applications
-- ✅ **Multi-Architecture Support** - i386, amd64, and ARM64 variants
 - ✅ **Pure Bash Menu System** - Type `menu` for guided navigation
 - ✅ **Pure Bash Disk Mounter** - Simple and efficient disk mounting
-- ✅ **Multiple Editions** - Choose the desktop environment (or CLI) that fits your needs
-- ✅ **Performance Improvements** - Faster boot times and resource management
+- ✅ **i386 & amd64 Support** - Works on legacy and modern x86 systems
+- ✅ **Enhanced Performance** - Faster boot times and resource management
+- ✅ **Improved System Stability** - Refined and optimized
 
 [View Full Changelog →](CHANGELOG.md)
 
@@ -42,31 +40,34 @@ LinkerOS v3.0 is a major milestone featuring:
 
 ## 📦 Available Editions
 
-LinkerOS v3.0 comes in multiple editions to suit different needs and hardware:
+### **v3.0 (Current Focus - CLI Edition)**
 
-### **For x86 & x86-64 Systems**
-
-| Edition | Desktop Environment | Architectures | Use Case |
+| Edition | Desktop Environment | Architectures | Status |
 |---------|-------------------|---|----------|
-| **LinkerTER OS** | CLI (Pure Bash) | i386, amd64 | Servers, developers, lightweight systems |
-| **LinkerOS Minimal** | XFCE | i386, amd64 | Budget-friendly, lightweight desktops |
-| **LinkerOS Performance** | MATE | i386, amd64 | Balanced performance and features |
-| **LinkerOS Predator** | Cinnamon | amd64 | Modern, feature-rich desktop experience |
+| **LinkerTER OS** | CLI (Pure Bash) | i386, amd64 | 🔴 **In Development** |
 
-### **For ARM64 Systems**
+### **Future Releases (Desktop Editions)**
 
-| Edition | Desktop Environment | Architecture | Use Case |
+| Edition | Desktop Environment | Architectures | Planned |
 |---------|-------------------|---|----------|
-| **LinkerTER UI** | CLI (Pure Bash) | ARM64 | ARM servers, embedded systems |
-| **LinkerUI Minimal** | XFCE | ARM64 | ARM boards, lightweight devices |
-| **LinkerUI Performance** | MATE | ARM64 | Balanced ARM desktop experience |
-| **LinkerUI Predator** | Cinnamon | ARM64 | Feature-rich ARM desktop |
+| **LinkerOS Minimal** | XFCE | i386, amd64 | v3.1+ |
+| **LinkerOS Performance** | MATE | i386, amd64 | v3.1+ |
+| **LinkerOS Predator** | Cinnamon | amd64 | v3.2+ |
 
-### **Mobile (Coming Soon)**
+### **Future Releases (ARM Variants)**
 
-| Edition | Format | Use Case |
+| Edition | Desktop Environment | Architecture | Planned |
+|---------|-------------------|---|----------|
+| **LinkerTER UI** | CLI (Pure Bash) | ARM64 | v4.0+ |
+| **LinkerUI Minimal** | XFCE | ARM64 | v4.0+ |
+| **LinkerUI Performance** | MATE | ARM64 | v4.1+ |
+| **LinkerUI Predator** | Cinnamon | ARM64 | v4.1+ |
+
+### **Future Releases (Mobile)**
+
+| Edition | Format | Planned |
 |---------|--------|----------|
-| **LinkerOS Mobile** | Generic System Image / Custom ROM | Mobile devices |
+| **LinkerOS Mobile** | Generic System Image / Custom ROM | TBD |
 
 ---
 
@@ -95,8 +96,7 @@ No complex dependencies or bloated utilities—just clean Bash scripts for mount
 | Pure Bash Core | ✅ Active | Lightweight and portable |
 | Interactive Menu System | ✅ Active | Type `menu` for guided navigation |
 | Disk Mounter | ✅ Active | Pure Bash disk management |
-| Multi-Edition Support | ✅ Active | CLI and multiple desktop environments |
-| Multi-Architecture | ✅ Active | i386, amd64, ARM64 support |
+| i386 & amd64 Support | ✅ Active | Full x86 architecture support |
 | Software Compatibility | ✅ Active | Broad application support |
 | System Stability | ✅ Active | Continuous refinement |
 
@@ -122,15 +122,14 @@ No complex dependencies or bloated utilities—just clean Bash scripts for mount
    make run
    ```
 
-### System Requirements
+### System Requirements (LinkerTER OS v3.0)
 
-| Edition | RAM | Storage | Processor |
-|---------|-----|---------|-----------|
-| **LinkerTER OS** | 512MB | 5GB | i386 or amd64 |
-| **LinkerOS Minimal** | 1GB | 8GB | i386 or amd64 |
-| **LinkerOS Performance** | 2GB | 10GB | amd64 |
-| **LinkerOS Predator** | 4GB | 15GB | amd64 |
-| **ARM Variants** | 512MB-2GB | 5GB-15GB | ARM64 |
+| Spec | Minimum | Recommended |
+|------|---------|-------------|
+| **RAM** | 512MB | 1GB+ |
+| **Storage** | 5GB | 10GB+ |
+| **Processor** | i386 or amd64 | amd64 |
+| **Boot Method** | BIOS or UEFI | UEFI |
 
 ### First Steps
 
@@ -184,25 +183,28 @@ make docs           # Generate documentation
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Release Roadmap
 
-### v3.0 (Current)
-- [x] Pure Bash menu system
-- [x] Pure Bash disk mounter
-- [x] Multiple desktop environment editions
-- [x] i386 and amd64 support
-- [ ] Complete ARM64 support (in progress)
-- [ ] Mobile edition (planned)
+### v3.0 (Current - CLI Edition)
+- 🔴 Pure Bash menu system
+- 🔴 Pure Bash disk mounter
+- 🔴 i386 and amd64 support
+- 🔴 Core system stability and performance
 
-### v3.1 (Planned)
-- [ ] Enhanced package manager
-- [ ] Improved security features
-- [ ] Extended hardware support
+### v3.1+ (Desktop Editions)
+- ⚪ XFCE desktop environment (LinkerOS Minimal)
+- ⚪ MATE desktop environment (LinkerOS Performance)
+- ⚪ Enhanced package management
+
+### v4.0+ (ARM Support)
+- ⚪ ARM64 CLI edition (LinkerTER UI)
+- ⚪ ARM64 desktop variants
+- ⚪ Mobile edition exploration
 
 ### Future
-- [ ] Better driver support
-- [ ] Performance optimization
-- [ ] Additional desktop environments
+- ⚪ Additional desktop environments
+- ⚪ Extended hardware support
+- ⚪ Performance optimization
 
 [View Full Roadmap →](docs/ROADMAP.md)
 
