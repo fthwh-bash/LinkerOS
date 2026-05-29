@@ -29,8 +29,7 @@ To create an OS that is:
 **LinkerTER OS v3.0** (CLI Edition) is coming soon with:
 
 - ✅ **Pure Bash Menu System** - Type `menu` for guided navigation
-- ✅ **Pure Bash Disk Mounter** - Simple and efficient disk mounting
-- ✅ **i386 & amd64 Support** - Works on legacy and modern x86 systems
+- ✅ **amd64 Support** - Works on modern x86 systems
 - ✅ **Enhanced Performance** - Faster boot times and resource management
 - ✅ **Improved System Stability** - Refined and optimized
 
