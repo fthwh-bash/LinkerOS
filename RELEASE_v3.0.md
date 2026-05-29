@@ -169,7 +169,7 @@ LinkerTER OS is licensed under the MIT License.
 ## 🙏 Special Thanks
 
 To everyone who believed in this project, especially during the development of:
-- Arduino Kernel (2-way Arduino communication)
+
 - LinkerOS (earlier attempts)
 - Now: **LinkerTER OS v3.0** ✅
 
@@ -181,5 +181,5 @@ To everyone who believed in this project, especially during the development of:
 
 ⭐ **If you believe in this project, please star the repository!**
 
-🚀 **Next up: Pocket Node open-source release**
+🚀 **Next up: A better version and GUIs**
 
