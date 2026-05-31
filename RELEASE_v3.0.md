@@ -107,6 +107,9 @@ dd if=LinkerTER-OS-v3.0.iso of=/dev/sdX bs=4M
 
 Don't be surprised! This is normal for custom OS builds. The file is clean and safe—it's just that Windows doesn't recognize custom ISO files. This is expected behavior.
 
+**DO NOT TRY TO INSTALL!! I'M BEGGING TO YOU!**
+It wipes out the partition and the content inside the HDD/SSD/NVME!
+
 ---
 
 ## 🐛 Bug Fixes in v3.0
